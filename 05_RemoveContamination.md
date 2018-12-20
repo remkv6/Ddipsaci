@@ -122,11 +122,11 @@ vi Scaffs2remove.list
 cdbfasta genome.fa
 
 #how many seqs does this leave from 1400
-grep ">" genome.fa |sed 's/>//g' |grep -w -v -f Scaffs2remove.list |wc
+grep ">" long_long2_v2_rascaf_medusa_curated |sed 's/>//g' |grep -w -v -f Scaffs2remove.list |wc
    1394    1394   18981
 
 #How many seq extracted?
-grep ">" genome.fa |sed 's/>//g' |grep -w -v -f Scaffs2remove.list |cdbyank genome.fa.cidx >GenomeRevised.fa
+grep ">" long_long2_v2_rascaf_medusa_curated |sed 's/>//g' |grep -w -v -f Scaffs2remove.list |cdbyank long_long2_v2_rascaf_medusa_curated.cidx >GenomeRevised.fa
 grep -c ">" GenomeRevised.fa
 1394
 ```
