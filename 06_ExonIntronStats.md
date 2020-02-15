@@ -31,8 +31,7 @@ Median: 98
 Min:    2
 Max:    9,194
 
-
-The average exon size is 515 bp
+The average exon size is 120 bp
 
 
 #average number of introns per gene, that had more than one exon
